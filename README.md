@@ -1,33 +1,6 @@
 ﻿# RedNav-399
 
 
-[
-img.shields.io
-
-NASA_Space_Apps-2026-0B3D91
-
-](https://www.spaceappschallenge.org/)
-[
-
-img.shields.io
-
-offline--first-yes-brightgreen
-
-](#run-it-fully-offline)
-[
-
-img.shields.io
-
-Next.js-15-black
-
-](https://nextjs.org/)
-[
-
-img.shields.io
-
-FastAPI-Python-009688
-
-](https://fastapi.tiangolo.com/)
 
 Interplanetary Survival Guide: Martian Map — Jezero Crater, Mars.
 
