@@ -1,0 +1,60 @@
+{
+  "id": "jezero_delta",
+  "name": "Jezero Crater - Western Delta (PRIMARY)",
+  "role": "primary",
+  "science_goal": "Study delta deposits and sampled rocks along a planned Marswalk",
+  "center": {
+    "lat": 18.45,
+    "lon": 77.42
+  },
+  "coord_status": "set_by_team",
+  "grid": {
+    "width": 400,
+    "height": 400,
+    "cell_m": 50,
+    "north_lat": 18.618706048581153,
+    "west_lon": 77.24215263128029
+  },
+  "layers": [
+    {
+      "kind": "topographic",
+      "name": "Elevation / Slope",
+      "mission": "Mars Reconnaissance Orbiter",
+      "instrument": "CTX",
+      "product": "Mars 2020 TRN CTX DTM mosaic",
+      "resolution_m": 20.0,
+      "acquired": "CTX stereo DTM",
+      "nature": "static",
+      "source_url": "https://doi.org/10.5066/P906QQT8",
+      "limitation": "20 m cells; landforms smaller than 20 m unresolved; east strip lon > 77.699 and south strip lat < 18.211 are DERIVED edge-fill, flagged in provenance mask. (The 20 km region box sits fully inside CTX coverage, so no edge-fill cells fall inside it.)"
+    },
+    {
+      "kind": "optical",
+      "name": "Surface imagery",
+      "mission": "Mars Reconnaissance Orbiter",
+      "instrument": "CTX",
+      "product": "Mars 2020 TRN CTX orthoimage mosaic",
+      "resolution_m": 6.0,
+      "acquired": "CTX images 2006-2019, mosaic published 2020-07-24",
+      "nature": "historical",
+      "source_url": "https://doi.org/10.5066/P9GV1ND3",
+      "limitation": "Orbital picture, not a live view. Lighting/season differ from other layers."
+    },
+    {
+      "kind": "chemical",
+      "name": "Carbonate (zone-mapped rover composition)",
+      "mission": "Mars 2020 / Perseverance",
+      "instrument": "SuperCam + PIXL (rover instruments)",
+      "product": "Zone-mapped carbonate wt% (Clavé et al. 2026; Science 2026 PIXL supplement)",
+      "resolution_m": 50,
+      "acquired": "rover sols 1-286 (SuperCam) and Margin Unit campaign",
+      "nature": "static",
+      "source_url": "https://doi.org/10.1029/2025JE009107",
+      "limitation": "Zone-mapped rover composition (wt%), not a spectrometer map: each zone shows the midpoint of its published carbonate range (Z1 <5 wt%, Z2 3-9 wt%, Z3 6-16 wt%), stored as wt%/20. Zones with no published carbonate (Z4/Z5/Z6) have no coverage. The CRISM spectral index (0-0.11) is not wt% and was not used."
+    }
+  ],
+  "warnings": [
+    "Chemical layer is zone-mapped from published rover composition ranges, not a per-pixel spectrometer map; boundaries are approximate zone polygons.",
+    "Output grid is 50 m, resampled (bilinear) from the 20 m CTX DTM: detail finer than 50 m is interpolated, not real; the source resolution stays 20 m."
+  ]
+}

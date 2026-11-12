@@ -1,0 +1,208 @@
+[
+  {
+    "id": "z1",
+    "name": "Crater floor — Séítah / Máaz",
+    "type": "zone",
+    "polygon": [
+      [
+        18.618706048581153,
+        77.24215263128029
+      ],
+      [
+        18.618706048581153,
+        77.59819867403185
+      ],
+      [
+        18.28129395141885,
+        77.59819867403185
+      ],
+      [
+        18.28129395141885,
+        77.24215263128029
+      ]
+    ],
+    "description": "Crater interior; Séítah 18.4382°N, 77.4421°E. About -2,600 m; traverse variation ~13 m; Séítah domes up to 17 m above Máaz. Boundaries approximate, from published zone descriptions.",
+    "chemistry": "Séítah MgO 21.4 wt%, olivine CIPW 41.1 wt%, Fo54–72, grain 1.5 mm; Máaz MgO 2.7 wt%, plagioclase 37.9 wt%",
+    "source": "[R14][V2]",
+    "approximate": true
+  },
+  {
+    "id": "z2",
+    "name": "Western delta + Kodiak",
+    "type": "zone",
+    "polygon": [
+      [
+        18.395,
+        77.365
+      ],
+      [
+        18.395,
+        77.425
+      ],
+      [
+        18.44,
+        77.425
+      ],
+      [
+        18.46,
+        77.4
+      ],
+      [
+        18.46,
+        77.365
+      ]
+    ],
+    "description": "West wall, mouth of Neretva Vallis; Kodiak 18.4124°N, 77.3820°E; delta front 18.4410°N, 77.4120°E. Fan top above floor; rim wall 610 m above delta base. Boundaries approximate, from published zone descriptions.",
+    "chemistry": "Carbonate 3–9 wt% (Upper Fan); Fe/Mg clay in delta sediments",
+    "source": "[R5][R6][V5]",
+    "approximate": true
+  },
+  {
+    "id": "z3",
+    "name": "Margin Unit — ancient shoreline",
+    "type": "zone",
+    "polygon": [
+      [
+        18.46,
+        77.33
+      ],
+      [
+        18.46,
+        77.4
+      ],
+      [
+        18.5,
+        77.4
+      ],
+      [
+        18.5,
+        77.33
+      ]
+    ],
+    "description": "Inner rim edge; Mandu Wall 18.4630°N, 77.3560°E. 265 m explored span; a long sloping bench, not a cliff. Boundaries approximate, from published zone descriptions.",
+    "chemistry": "Carbonate 6–16 wt%; PIXL MgO 21±10 wt% (E) / 26±12 wt% (W); CaSO4 + fluorite veins ~25 cm, eastern Margin only; 3 water events",
+    "source": "[R11][V4][V5]",
+    "approximate": true
+  },
+  {
+    "id": "z4",
+    "name": "Neretva Vallis + Bright Angel",
+    "type": "zone",
+    "polygon": [
+      [
+        18.472,
+        77.342
+      ],
+      [
+        18.46,
+        77.36
+      ],
+      [
+        18.45,
+        77.365
+      ],
+      [
+        18.44,
+        77.355
+      ],
+      [
+        18.45,
+        77.335
+      ],
+      [
+        18.465,
+        77.325
+      ]
+    ],
+    "description": "Channel through western rim; Bright Angel on N and S edges; Neretva breach 18.4720°N, 77.3420°E. Channel 400 m wide; Bright Angel exposure 1.2+ km; Cheyava Falls rock 1.0 × 0.6 m, sol 1212. Boundaries approximate, from published zone descriptions.",
+    "chemistry": "Organic carbon + phosphorus; vivianite + greigite leopard spots (mm-scale); CaSO4 veins run the length of Cheyava Falls; Sapphire Canyon core sol 1215, 6.2 cm — POTENTIAL biosignature only, not confirmed life",
+    "source": "[R12][R19][R30][V7]",
+    "approximate": true
+  },
+  {
+    "id": "z5",
+    "name": "Rim + Broom Point",
+    "type": "zone",
+    "polygon": [
+      [
+        18.282,
+        77.242
+      ],
+      [
+        18.282,
+        77.31
+      ],
+      [
+        18.46,
+        77.31
+      ],
+      [
+        18.46,
+        77.33
+      ],
+      [
+        18.5,
+        77.33
+      ],
+      [
+        18.55,
+        77.3
+      ],
+      [
+        18.6187,
+        77.3
+      ],
+      [
+        18.6187,
+        77.242
+      ]
+    ],
+    "description": "Outer rim; Broom Point — location by zone + traverse, no lat/lon in PDFs. +300 m to Aurora Park, +800 m total relief at Lookout Hill; slopes up to 23°. Boundaries approximate, from published zone descriptions.",
+    "chemistry": "Igneous / impactite; Silver Mountain, Green Gardens (serpentinite), Main River cores from rim",
+    "source": "[R15][R22][R23][V7]",
+    "approximate": true
+  },
+  {
+    "id": "z6",
+    "name": "Octavia E. Butler Landing hub",
+    "type": "zone",
+    "polygon": [
+      [
+        18.453,
+        77.4509
+      ],
+      [
+        18.4506,
+        77.4599
+      ],
+      [
+        18.4446,
+        77.4599
+      ],
+      [
+        18.4386,
+        77.4599
+      ],
+      [
+        18.4362,
+        77.4509
+      ],
+      [
+        18.4386,
+        77.4419
+      ],
+      [
+        18.4446,
+        77.4419
+      ],
+      [
+        18.4506,
+        77.4419
+      ]
+    ],
+    "description": "18.4446°N, 77.4509°E. -2,570 m (reported), 30 m above general floor. Landing 18 Feb 2021; ~1.9 km east of delta remnants; landing ellipse 7.7 × 6.6 km. Boundaries approximate, from published zone descriptions.",
+    "chemistry": "Máaz paver field; MOXIE site; first weather report site",
+    "source": "[R26][R31][V3][V6]",
+    "approximate": true
+  }
+]

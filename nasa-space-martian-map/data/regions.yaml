@@ -1,0 +1,58 @@
+# One entry = one map region the app can show.
+# lon is degrees EAST, 0-360 (planetocentric, same as USGS Gazetteer).
+# size_km = side of the square box we cut out. cell_m = output grid spacing (must not be finer than the real DEM!).
+regions:
+  - id: jezero_delta
+    name: "Jezero Crater - Western Delta (PRIMARY)"
+    role: primary
+    center: { lat: 18.45, lon: 77.42 }
+    size_km: 20
+    cell_m: 50 # 50 m resample of the 20 m CTX DTM source (400x400 grid; A* on a 20 m grid would be 1000x1000 and too slow). Never claim 20 m detail from this grid.
+    science_goal: "Study delta deposits and sampled rocks along a planned Marswalk"
+    dem:
+      {
+        file: "data/raw/jezero_ctx_dem.tif",
+        product: "Mars 2020 TRN CTX DTM mosaic",
+        mission: "Mars Reconnaissance Orbiter",
+        instrument: "CTX",
+        resolution_m: 20,
+        acquired: "CTX stereo DTM",
+        url: "https://doi.org/10.5066/P906QQT8",
+        limitation: "20 m cells; landforms smaller than 20 m unresolved; east strip lon > 77.699 and south strip lat < 18.211 are DERIVED edge-fill, flagged in provenance mask. (The 20 km region box sits fully inside CTX coverage, so no edge-fill cells fall inside it.)",
+      }
+    image: {file: "data/raw/jezero_ctx_ortho.tif", product: "Mars 2020 TRN CTX orthoimage mosaic", mission: "Mars Reconnaissance Orbiter", instrument: "CTX", resolution_m: 6, acquired: "CTX images 2006-2019, mosaic published 2020-07-24", url: "https://doi.org/10.5066/P9GV1ND3", limitation: "Orbital picture, not a live view. Lighting/season differ from other layers."}
+  - id: bd_bogra
+    name: "Bogra crater (Bangladesh name)"
+    role: bangladesh
+    center: { lat: -24.16, lon: 331.20 } # Gazetteer Feature 795, planetocentric +East (MDIM 2.1); was -24.4/331.1 (planetographic) - fixed 2026-11-11
+    coord_status: verified_gazetteer
+    size_km: 70
+    cell_m: 200
+  - id: bd_sripur
+    name: "Sripur crater (Bangladesh name)"
+    role: bangladesh
+    center: { lat: -30.74, lon: 259.29 } # Gazetteer Feature 5677, planetocentric +East (MDIM 2.1); was -31.1/259.2 (planetographic) - fixed 2026-11-11
+    coord_status: verified_gazetteer
+    size_km: 70
+    cell_m: 200
+  - id: bd_teknaf
+    name: "Teknaf crater (Bangladesh name)"
+    role: bangladesh
+    center: { lat: -36.11, lon: 214.30 }
+    coord_status: verified_gazetteer
+    size_km: 40
+    cell_m: 200
+  - id: bd_ruhea
+    name: "Ruhea crater (Bangladesh name)"
+    role: bangladesh
+    center: { lat: -43.26, lon: 173.08 } # Gazetteer Feature 15527, planetocentric +East - verified 2026-11-11 (was already correct)
+    coord_status: verified_gazetteer
+    size_km: 35
+    cell_m: 200
+  - id: bd_satkania
+    name: "Satkania crater (Bangladesh name)"
+    role: bangladesh
+    center: { lat: -32.35, lon: 338.20 }
+    coord_status: verified_gazetteer
+    size_km: 25
+    cell_m: 200

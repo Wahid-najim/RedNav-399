@@ -1,0 +1,4 @@
+site_id,file_or_url,rover,camera,sol,earth_date,credit,source_url
+cheyava_falls,https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26368/PIA26368.jpg,Perseverance,WATSON,1212,2024-07-18,NASA/JPL-Caltech/MSSS,https://science.nasa.gov/resource/perseverance-finds-a-rock-with-leopard-spots/
+bright_angel,https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26336/PIA26336.jpg,Perseverance,Navcam,1172,2024-06-06,NASA/JPL-Caltech,https://science.nasa.gov/photojournal/perseverance-views-bright-angel/
+bright_angel,https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26369/PIA26369.jpg,Perseverance,Mastcam-Z,1178,2024-06-12,NASA/JPL-Caltech/ASU/MSSS,https://science.nasa.gov/resource/perseverance-captures-bright-angel-in-360-degrees/

@@ -1,0 +1,14 @@
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.local
+# processed data can be big: commit only the small demo, rebuild real regions with run_all.py
+
+# Research Lab: local SQLite DB (never committed) and downloaded model files (re-download from MODEL_MANIFEST.md)
+*.db
+backend/data/
+backend/app/brain/models/*.gguf
+backend/app/brain/models/*.onnx

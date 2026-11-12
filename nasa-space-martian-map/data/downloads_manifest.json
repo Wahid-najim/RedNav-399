@@ -1,0 +1,210 @@
+{
+  "generated": "2026-11-11",
+  "note": "Every file the data pipeline downloaded or derived from a download. MISSING items are listed under missing with the reason; nothing was substituted silently.",
+  "rasters": [
+    {
+      "file": "data/raw/jezero_ctx_dem.tif",
+      "source_url": "https://planetarymaps.usgs.gov/mosaic/mars2020_trn/CTX/JEZ_ctx_B_soc_008_DTM_MOLAtopography_DeltaGeoid_20m_Eqc_latTs0_lon0.tif",
+      "downloaded": "2026-11-11",
+      "size_bytes": 9662387,
+      "sha256": "16a1aa66c3f48c1bca252795827db7b417876217aff0f5e1aff18027fab2327b",
+      "licence": "Public domain (U.S. Government work; USGS Astrogeology / NASA MRO data)",
+      "doi": "10.5066/P906QQT8",
+      "product": "Mars 2020 TRN CTX DTM mosaic",
+      "mission": "Mars Reconnaissance Orbiter",
+      "instrument": "CTX",
+      "resolution_m": 20,
+      "coverage": "lat 18.211-18.7212, lon 77.1605-77.6992 (verified: lon 77.1605-77.6990, lat 18.2110-18.7212)",
+      "published": "2020-07-24",
+      "page": "https://astrogeology.usgs.gov/search/map/mars_2020_terrain_relative_navigation_ctx_dtm_mosaic"
+    },
+    {
+      "file": "data/raw/jezero_ctx_ortho.tif",
+      "source_url": "https://planetarymaps.usgs.gov/mosaic/mars2020_trn/CTX/JEZ_ctx_B_soc_008_orthoMosaic_6m_Eqc_latTs0_lon0.tif",
+      "downloaded": "2026-11-11",
+      "size_bytes": 36269402,
+      "sha256": "842b457afee7c2672022b66e3f60be836c6d52e99474015bfd9ced60099b8615",
+      "licence": "Public domain (U.S. Government work; USGS Astrogeology / NASA MRO data)",
+      "doi": "10.5066/P9GV1ND3",
+      "product": "Mars 2020 TRN CTX orthoimage mosaic",
+      "mission": "Mars Reconnaissance Orbiter",
+      "instrument": "CTX",
+      "resolution_m": 6,
+      "coverage": "lat 18.211-18.7212, lon 77.1605-77.6992 (verified)",
+      "published": "2020-07-24",
+      "page": "https://astrogeology.usgs.gov/search/map/mars_2020_terrain_relative_navigation_context_camera_orthorectified_image_mosaic"
+    }
+  ],
+  "media": [
+    {
+      "file": "data/processed/jezero_delta/media/PIA23239.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23239/PIA23239.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 550154,
+      "sha256": "083eddb4f087ee30b6ad698dd1b05b0ee89672ebfaf77d777e99f4bb0f1e4bf0",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA23239",
+      "title": "Jezero base map, CRISM + CTX",
+      "instrument": "MRO CRISM + CTX",
+      "published": "2019-05-15",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA23239",
+      "credit": "NASA/JPL-Caltech"
+    },
+    {
+      "file": "data/processed/jezero_delta/media/PIA24814.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24814/PIA24814.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 249625,
+      "sha256": "391124738bb6650b5c10caa7f3daa1537fac4904afb0057b1bcc5eda95c89060",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA24814",
+      "title": "Kodiak and scarps",
+      "instrument": "MRO HiRISE",
+      "published": "2021-10-07",
+      "page": "https://science.nasa.gov/photojournal/jezero-craters-kodiak-and-scarps/",
+      "credit": "NASA/JPL-Caltech"
+    },
+    {
+      "file": "data/processed/jezero_delta/media/PIA26140.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26140/PIA26140.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 95286,
+      "sha256": "71c33ed8e46637ff399596ca8a6d2bd9f2b42fe117d72c0929a63c6024541fbb",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA26140",
+      "title": "False colour, THEMIS VIS",
+      "instrument": "Mars Odyssey THEMIS VIS",
+      "published": "2023-09-29",
+      "page": "https://science.nasa.gov/photojournal/jezero-crater-false-color/",
+      "credit": "NASA/JPL-Caltech"
+    },
+    {
+      "file": "data/processed/jezero_delta/media/PIA24379.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia24/pia24379/PIA24379.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 2117657,
+      "sha256": "8b1ea24331086f0cf2382224cf5b1a77f6ea04ca8d4b36102eac4c38c6f66e46",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA24379",
+      "title": "Possible-path perspective",
+      "instrument": "CTX mosaic",
+      "published": "2021-01-27",
+      "page": "https://science.nasa.gov/photojournal/possible-path-for-perseverance-rover/",
+      "credit": "NASA/JPL-Caltech"
+    },
+    {
+      "file": "data/processed/jezero_delta/media/PIA25673.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia25/pia25673/PIA25673.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 2208695,
+      "sha256": "a3bfafd1e9c13399093de4a4de5eb3e9a2542e62dbe64d169a7d92adb24a4376",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA25673",
+      "title": "Delta Top Campaign working map",
+      "instrument": "CTX",
+      "published": "2022-12-15",
+      "page": "https://science.nasa.gov/photojournal/map-of-perseverances-delta-top-campaign/",
+      "credit": "NASA/JPL-Caltech"
+    },
+    {
+      "file": "data/processed/jezero_delta/media/PIA26336.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26336/PIA26336.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 342170,
+      "sha256": "6abbae9db61faae50fece729d3a5b3560e20805b474648399b0e65f78d745a86",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA26336",
+      "title": "Perseverance Views 'Bright Angel'",
+      "instrument": "Navcam",
+      "published": "2024-06-13",
+      "captured": "2024-06-06, sol 1172",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA26336",
+      "credit": "NASA/JPL-Caltech",
+      "note": "Published 2024-06-13 (page date); image captured 2024-06-06. The research pack's 2024-06-06 is the capture date, not the publish date."
+    },
+    {
+      "file": "data/processed/jezero_delta/media/PIA26639.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26639/PIA26639.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 144377,
+      "sha256": "c400df3b1af886da48b7e19acf4bd0a56ddcb325a62036c5b64ee20e4185c3ee",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA26639",
+      "title": "SHERLOC spectra, Bright Angel",
+      "instrument": "SHERLOC",
+      "published": "2025-09-10",
+      "page": "https://science.nasa.gov/photojournal/perseverances-sherloc-finds-organic-molecules/",
+      "credit": "NASA/JPL-Caltech"
+    }
+  ],
+  "pov_images": [
+    {
+      "file": "data/processed/jezero_delta/media/cheyava_falls_0.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26368/PIA26368.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 324063,
+      "sha256": "323d0b2cd713bd868976ee5ac003d9b0a372021f280425f397a3aac3554eaba5",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA26368",
+      "title": "Cheyava Falls close-up",
+      "instrument": "WATSON",
+      "published": "2024-07-25",
+      "captured": "2024-07-18, sol 1212",
+      "site_id": "cheyava_falls",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA26368",
+      "credit": "NASA/JPL-Caltech/MSSS",
+      "note": "Full-res 1648x1200 JPEG direct from NASA's photojournal asset host (verified 2026-11-11). The research pack catalogued this as 'no downloadable asset at quality'; that is now out of date — the file exists and was downloaded."
+    },
+    {
+      "file": "data/processed/jezero_delta/media/bright_angel_1.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26336/PIA26336.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 342170,
+      "sha256": "6abbae9db61faae50fece729d3a5b3560e20805b474648399b0e65f78d745a86",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA26336",
+      "title": "Perseverance Views 'Bright Angel'",
+      "instrument": "Navcam",
+      "published": "2024-06-13",
+      "captured": "2024-06-06, sol 1172",
+      "site_id": "bright_angel",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA26336",
+      "credit": "NASA/JPL-Caltech",
+      "note": "Same file as gallery PIA26336.jpg (identical SHA-256); copied by 03_build_sites.py as this site's POV image."
+    },
+    {
+      "file": "data/processed/jezero_delta/media/bright_angel_2.jpg",
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia26/pia26369/PIA26369.jpg",
+      "downloaded": "2026-11-11",
+      "size_bytes": 23662311,
+      "sha256": "a04da0065cd0565bcfd8ca6e3188b995bd6e7d4faa56afb2ba0cfc98640624f5",
+      "licence": "Public domain (NASA/JPL-Caltech; credit as noted per image)",
+      "pia": "PIA26369",
+      "title": "Bright Angel panorama",
+      "instrument": "Mastcam-Z",
+      "published": "2024-07-25",
+      "captured": "2024-06-12, sol 1178",
+      "site_id": "bright_angel",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA26369",
+      "credit": "NASA/JPL-Caltech/ASU/MSSS",
+      "note": "27000x6600 JPEG (23.6 MB) direct from NASA's photojournal asset host — the half-scale version of the 54000x13200 full panorama (493 MB). Genuine NASA file, not an upscale. The research pack catalogued this as 'no downloadable asset at quality'; that is now out of date."
+    }
+  ],
+  "missing": [
+    {
+      "item": "HiRISE 1 m DTM (JEZ_hirise_soc_006, DOI 10.5066/P13CPYYU)",
+      "status": "MISSING",
+      "reason": "5.3 GB download; not fetched. The CTX 20 m DTM covers the whole 20 km box, so this is a future upgrade, not a blocker."
+    },
+    {
+      "item": "MEDA line-by-line weather check",
+      "status": "MISSING",
+      "reason": "Not yet done: MEDA values in the research pack (pressure 718 Pa, -22/-83 C) have not been re-checked line-by-line against the NASA source in this repo."
+    },
+    {
+      "item": "PIA26476 Jezero Crater Elevation Graph (image)",
+      "status": "MISSING",
+      "reason": "Not downloaded; elevation values are already in the DEM and site records. Page: https://www.jpl.nasa.gov/images/pia26476-jezero-crater-elevation-graph/"
+    }
+  ]
+}

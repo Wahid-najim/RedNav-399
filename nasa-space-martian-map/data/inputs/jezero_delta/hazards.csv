@@ -1,0 +1,10 @@
+id,name,lat,lon,radius_m,reason,source_url
+neretva_channel,Neretva Vallis channel,18.472,77.342,200,"Neretva Vallis channel, 400 m wide (published); steep incised channel wall — crossing the channel, not the floor, is the hazard.",https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignature-last-year/
+steep_slope_1,Steep slope zone 1 (measured DEM),18.4801,77.2769,679,580 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.6 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_2,Steep slope zone 2 (measured DEM),18.5507,77.3079,656,541 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 29.5 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_3,Steep slope zone 3 (measured DEM),18.3097,77.3607,372,174 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.5 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_4,Steep slope zone 4 (measured DEM),18.4274,77.2592,289,105 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.0 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_5,Steep slope zone 5 (measured DEM),18.5752,77.3261,286,103 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 27.4 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_6,Steep slope zone 6 (measured DEM),18.5056,77.251,268,90 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 26.7 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_7,Steep slope zone 7 (measured DEM),18.6094,77.2537,241,73 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.8 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8
+steep_slope_8,Steep slope zone 8 (measured DEM),18.4239,77.308,231,67 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 24.1 deg); above the rover slope limit.,https://doi.org/10.5066/P906QQT8

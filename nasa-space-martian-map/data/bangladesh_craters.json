@@ -1,0 +1,45 @@
+{
+  "note": "Facts checked 2026-10-31; coordinates re-verified against the USGS Gazetteer of Planetary Nomenclature (planetocentric, +East, MDIM 2.1) on 2026-11-11. All five now verified_gazetteer: Bogra Feature 795 (-24.16, 331.20, 21.31 km, 1976) - was -24.4/331.1 planetographic, fixed; Sripur Feature 5677 (-30.74, 259.29, 22.99 km, 1991) - was -31.1/259.2 planetographic, fixed; Teknaf Feature 16045 (-36.11, 214.30, 12.0 km, 2022-03-23); Ruhea Feature 15527 (-43.26, 173.08, 9.5 km, 2016-10-18) - already correct; Satkania Feature 16048 (-32.35, 338.20, 6.0 km, 2022-03-23).",
+  "craters": [
+    {
+      "id": "bd_bogra",
+      "name": "Bogra",
+      "diameter_km": 21.31,
+      "approved": "1976",
+      "named_after": "Bogra, Bangladesh",
+      "gazetteer": "https://planetarynames.wr.usgs.gov/Feature/795"
+    },
+    {
+      "id": "bd_sripur",
+      "name": "Srīpur",
+      "diameter_km": 22.99,
+      "approved": "1991",
+      "named_after": "Sripur, Bangladesh",
+      "gazetteer": "https://planetarynames.wr.usgs.gov/Feature/5677"
+    },
+    {
+      "id": "bd_teknaf",
+      "name": "Teknaf",
+      "diameter_km": 12.0,
+      "approved": "2022-03-23",
+      "named_after": "Teknaf, Bangladesh",
+      "gazetteer": "https://planetarynames.wr.usgs.gov/Feature/16045"
+    },
+    {
+      "id": "bd_ruhea",
+      "name": "Ruhea",
+      "diameter_km": 9.5,
+      "approved": "2016",
+      "named_after": "Ruhea, Bangladesh",
+      "gazetteer": "https://planetarynames.wr.usgs.gov/Feature/15527"
+    },
+    {
+      "id": "bd_satkania",
+      "name": "Satkania",
+      "diameter_km": 6.0,
+      "approved": "2022-03-23",
+      "named_after": "Satkania, Bangladesh",
+      "gazetteer": "https://planetarynames.wr.usgs.gov/Feature/16048"
+    }
+  ]
+}

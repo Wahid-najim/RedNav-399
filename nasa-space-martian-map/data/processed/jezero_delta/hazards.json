@@ -1,0 +1,83 @@
+[
+  {
+    "id": "neretva_channel",
+    "name": "Neretva Vallis channel",
+    "lat": 18.472,
+    "lon": 77.342,
+    "radius_m": 200.0,
+    "reason": "Neretva Vallis channel, 400 m wide (published); steep incised channel wall — crossing the channel, not the floor, is the hazard.",
+    "source_url": "https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignature-last-year/"
+  },
+  {
+    "id": "steep_slope_1",
+    "name": "Steep slope zone 1 (measured DEM)",
+    "lat": 18.4801,
+    "lon": 77.2769,
+    "radius_m": 679.0,
+    "reason": "580 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.6 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_2",
+    "name": "Steep slope zone 2 (measured DEM)",
+    "lat": 18.5507,
+    "lon": 77.3079,
+    "radius_m": 656.0,
+    "reason": "541 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 29.5 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_3",
+    "name": "Steep slope zone 3 (measured DEM)",
+    "lat": 18.3097,
+    "lon": 77.3607,
+    "radius_m": 372.0,
+    "reason": "174 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.5 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_4",
+    "name": "Steep slope zone 4 (measured DEM)",
+    "lat": 18.4274,
+    "lon": 77.2592,
+    "radius_m": 289.0,
+    "reason": "105 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.0 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_5",
+    "name": "Steep slope zone 5 (measured DEM)",
+    "lat": 18.5752,
+    "lon": 77.3261,
+    "radius_m": 286.0,
+    "reason": "103 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 27.4 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_6",
+    "name": "Steep slope zone 6 (measured DEM)",
+    "lat": 18.5056,
+    "lon": 77.251,
+    "radius_m": 268.0,
+    "reason": "90 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 26.7 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_7",
+    "name": "Steep slope zone 7 (measured DEM)",
+    "lat": 18.6094,
+    "lon": 77.2537,
+    "radius_m": 241.0,
+    "reason": "73 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 28.8 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  },
+  {
+    "id": "steep_slope_8",
+    "name": "Steep slope zone 8 (measured DEM)",
+    "lat": 18.4239,
+    "lon": 77.308,
+    "radius_m": 231.0,
+    "reason": "67 contiguous 50 m cells steeper than 20 deg in the measured CTX 20 m DTM (max 24.1 deg); above the rover slope limit.",
+    "source_url": "https://doi.org/10.5066/P906QQT8"
+  }
+]

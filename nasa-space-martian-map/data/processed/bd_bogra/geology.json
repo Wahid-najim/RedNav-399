@@ -1,0 +1,60 @@
+[
+  {
+    "id": "bd_bogra_geo_rim",
+    "name": "Crater rim crest (synthetic outline)",
+    "type": "crater_rim",
+    "polygon": [
+      [
+        -23.979988703862276,
+        331.2
+      ],
+      [
+        -23.97980033843088,
+        331.26408157906775
+      ],
+      [
+        -23.993917748113763,
+        331.14093877389485
+      ],
+      [
+        -24.0119118583464,
+        331.14733773706484
+      ],
+      [
+        -24.009858004194392,
+        331.25339264287084
+      ],
+      [
+        -24.002847320415196,
+        331.2
+      ]
+    ],
+    "description": "Approximate rim position from the published diameter.",
+    "synthetic": true
+  },
+  {
+    "id": "bd_bogra_geo_ejecta",
+    "name": "Ejecta zone (synthetic outline)",
+    "type": "ejecta",
+    "polygon": [
+      [
+        -23.915460582581616,
+        331.1320512193678
+      ],
+      [
+        -23.915460582581616,
+        331.2679487806322
+      ],
+      [
+        -23.973495463293535,
+        331.2679487806322
+      ],
+      [
+        -23.973495463293535,
+        331.1320512193678
+      ]
+    ],
+    "description": "Illustrative ejecta extent north of the rim.",
+    "synthetic": true
+  }
+]
